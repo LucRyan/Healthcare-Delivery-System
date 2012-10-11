@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="284dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    <TextView
+        android:id="@+id/sqs_main_into_text"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:gravity="center"
+        android:text="CHWs Communication Center Main Menu"
+        android:textColor="#FF0000"
+        android:textStyle="bold" />
+
+	<Button 
+		android:id="@+id/sqs_list_queues_button"
+		android:text="View Queues"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		/>
+	<Button 
+		android:id="@+id/sqs_send_message_button"
+		android:text="Send Message to Queue"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		/>
+</LinearLayout>

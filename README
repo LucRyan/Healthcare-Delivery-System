@@ -1,0 +1,20 @@
+Running the AWS SQS Demo 
+========================
+This sample demonstrates how Android can interact with Amazon SQS.
+Modified from a sample application provided by Amazon.
+
+1. Import into Eclipse 
+   * Go to File -> New Android Project. The New Project wizard opens.
+   * Select Create project from existing source, then click the Browse button to select the sample code. The Browse dialog box opens.
+   * Browse to the AWS-SQS-Demo directory, then click Open.
+   * Verify that the Build Target is Android 2.3.
+   * Click Finish.
+
+2. Update your App configuration:
+   * Open the AwsCredential.properties file located in the edu.stevens.cs522.sqs.demo.
+   * Edit the file and provide your AWS Credentials.
+
+3. Run the project:
+   * Go to Project ->  Clean.
+   * Go to Project ->  Build All.
+   * Go to Run -> Run.
